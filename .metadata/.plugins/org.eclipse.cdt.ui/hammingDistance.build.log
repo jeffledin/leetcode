@@ -1,0 +1,6 @@
+00:39:48 **** Incremental Build of configuration Debug for project hammingDistance ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:39:48 Build Finished (took 77ms)
+

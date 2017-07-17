@@ -1,0 +1,1 @@
+hammingDistance.o: ../hammingDistance.c

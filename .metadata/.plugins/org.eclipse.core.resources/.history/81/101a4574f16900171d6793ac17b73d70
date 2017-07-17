@@ -1,0 +1,60 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 16, 2017
+ *      Author: jledin
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "linkedList.h"
+
+struct linkedListNode* createNumber(char d1, char d2, char d3);
+
+int main()
+{
+	struct linkedListNode *head = NULL;
+	head = malloc(sizeof(struct linkedListNode));
+
+	createNumber(1, 2, 3);
+
+	head->value = 5;
+	head->next = NULL;
+
+	head->next = malloc(sizeof(struct linkedListNode));
+
+	head->next->value = 7;
+
+	printf("Head Value: %d\n", head->value);
+	printf("Node 2 Value: %d\n", head->next->value);
+
+	return 0;
+}
+
+// Stores given number in reverse order
+struct linkedListNode* createNumber(int d0, int d1, int d2)
+{
+	struct linkedListNode *numberHead = NULL;
+	struct linkedListNode *current = numberHead;
+
+	printf("Test\n");
+	numberHead = malloc(sizeof(struct linkedListNode));
+
+	numberHead->value = d2;
+	numberHead->next = malloc(sizeof(struct linkedListNode));
+	numberHead->next->value = d1;
+	numberHead->next->next = malloc(sizeof(struct linkedListNode));
+	numberHead->next->next->value = d0;
+	numberHead->next->next->next = NULL;
+
+	printf("Reversed Number: ");
+
+	while(current->next != NULL)
+	{
+		printf("%d", current->value);
+		current = current->next;
+	}
+
+	return numberHead;
+}

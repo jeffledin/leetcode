@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+struct testStruct {
+	.testVariable = 800;
+	.testVariable2 = 10;
+};
+
+int main()
+{
+
+}

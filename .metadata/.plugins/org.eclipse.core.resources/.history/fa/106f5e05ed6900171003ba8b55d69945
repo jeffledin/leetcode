@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 16, 2017
+ *      Author: jledin
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "linkedList.h"
+
+int main()
+{
+	struct linkedListNode *head = NULL;
+
+	return 0;
+}
+

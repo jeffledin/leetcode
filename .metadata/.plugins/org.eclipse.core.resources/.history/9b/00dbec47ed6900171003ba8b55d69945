@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 16, 2017
+ *      Author: jledin
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "linkedList.h"
+
+int main()
+{
+	struct linkedListNode *head = NULL;
+
+	head->value = 5;
+	head->next = NULL;
+
+	printf("Head Value: %d\n", head->value);
+
+	return 0;
+}
+

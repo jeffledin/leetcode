@@ -1,0 +1,35 @@
+/*
+ * hammingDistance.c
+ *
+ *  Created on: Jul 16, 2017
+ *      Author: jledin
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+int hammingDistance(int x, int y);
+
+int main()
+{
+	int result;
+	result = hammingDistance(0b1100, 0b1100);
+	return 0;
+}
+
+int hammingDistance(int x, int y)
+{
+	int difference = x & y;
+	int hammingDistance = 0;
+
+	printf("Difference Mask: %#010x\n", difference);
+	for(int i = 0; i < 32; i++)
+	{
+		if(difference & (1 << i))
+		{
+			printf("Match Found At Bit Position %d\n", i);
+			++hammingDistance;
+		}
+	}
+
+	return 32 - hammingDistance;
+}

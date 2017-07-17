@@ -1,0 +1,59 @@
+/*
+ * linkedList.c
+ *
+ *  Created on: Jul 16, 2017
+ *      Author: jledin
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "linkedList.h"
+
+// Steps through linked list and prints out each value
+void printList(struct linkedListNode *head)
+{
+	struct linkedListNode *current = head;
+
+	while(current != NULL)
+	{
+		printf("%d", current->value);
+		current = current->next;
+	}
+
+	free(current);
+}
+
+// Stores given number in reverse order
+struct linkedListNode* createNumber(int d0, int d1, int d2)
+{
+	struct linkedListNode *numberHead = NULL;
+	numberHead = malloc(sizeof(struct linkedListNode));
+
+	struct linkedListNode *current = numberHead;
+
+	numberHead->value = d2;
+	numberHead->next = malloc(sizeof(struct linkedListNode));
+	numberHead->next->value = d1;
+	numberHead->next->next = malloc(sizeof(struct linkedListNode));
+	numberHead->next->next->value = d0;
+	numberHead->next->next->next = NULL;
+
+//	printf("Reversed Number: ");
+//
+//	while(current != NULL)
+//	{
+//		printf("%d", current->value);
+//		current = current->next;
+//	}
+//
+//	printf("\n");
+
+	return numberHead;
+}
+
+void addLinkedListNums(struct linkedListNode* l1, struct linkedListNode* l2)
+{
+
+}
+
+

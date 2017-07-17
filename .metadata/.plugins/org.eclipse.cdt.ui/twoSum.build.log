@@ -1,0 +1,6 @@
+01:36:39 **** Incremental Build of configuration Debug for project twoSum ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:36:39 Build Finished (took 154ms)
+

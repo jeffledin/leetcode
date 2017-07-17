@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 16, 2017
+ *      Author: jledin
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "linkedList.h"
+
+int main()
+{
+	struct linkedListNode myLinkedList;
+	struct linkedListNode *myLinkedListPtr;
+	myLinkedListPtr = myLinkedList;
+
+	return 0;
+}
+
