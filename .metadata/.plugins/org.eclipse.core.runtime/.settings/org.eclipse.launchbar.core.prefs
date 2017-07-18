@@ -1,9 +1,12 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:structs,org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:twoSum,org.eclipse.launchbar.core.descriptorType.default\:addTwoNumbersLinkedList,org.eclipse.launchbar.core.descriptorType.default\:hammingDistance
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:structs,org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:twoSum,org.eclipse.launchbar.core.descriptorType.default\:addTwoNumbersLinkedList,org.eclipse.launchbar.core.descriptorType.default\:hammingDistance,org.eclipse.launchbar.core.descriptorType.default\:hammingDistance (1),org.eclipse.launchbar.core.descriptorType.default\:reversedString
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:addTwoNumbersLinkedList/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:addTwoNumbersLinkedList/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:hammingDistance/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:hammingDistance/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:reversedString/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:structs/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:structs/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:twoSum/activeLaunchMode=run
