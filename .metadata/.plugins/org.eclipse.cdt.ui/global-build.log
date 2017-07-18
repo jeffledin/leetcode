@@ -1,1097 +1,866 @@
-21:07:45 **** Clean-only build of configuration Debug for project reverseString ****
-make clean 
-rm -rf  ./reverseString.o  ./reverseString.d  reverseString
- 
-21:10:00 **** Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:30:7: warning: unused variable ‘sLength’ [-Wunused-variable]
-  char sLength = strlen(s);
-       ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:10:02 **** Incremental Build of configuration Debug for project reversedString ****
+21:53:53 **** Incremental Build of configuration Debug for project hammingDistance ****
 make all 
 make: Nothing to be done for 'all'.
-21:10:13 **** Incremental Build of configuration Debug for project reversedString ****
+21:53:55 **** Incremental Build of configuration Debug for project hammingDistance ****
 make all 
 make: Nothing to be done for 'all'.
-21:10:14 **** Incremental Build of configuration Debug for project reversedString ****
+22:02:22 **** Incremental Build of configuration Debug for project hammingDistance ****
 make all 
 make: Nothing to be done for 'all'.
-21:10:33 **** Incremental Build of configuration Debug for project reversedString ****
+22:02:22 **** Build of configuration Debug for project maximumAverageSubarray ****
 make all 
-make: Nothing to be done for 'all'.
-21:10:36 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:55:28: error: ‘reversedString’ undeclared (first use in this function)
-  for(int i = 0; i < strlen(reversedString); i++)
-                            ^
-../reversedString.c:55:28: note: each undeclared identifier is reported only once for each function it appears in
-../reversedString.c:30:7: warning: unused variable ‘sLength’ [-Wunused-variable]
-  char sLength = strlen(s);
-       ^
-subdir.mk:18: recipe for target 'reversedString.o' failed
-make: *** [reversedString.o] Error 1
-21:11:08 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:55:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:55:28: note: expected ‘const char *’ but argument is of type ‘char’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:11:10 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:11:18 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:11:21 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:11:23 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:11:24 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:11:25 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:12:12 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:12:15 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:57:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:57:28: note: expected ‘const char *’ but argument is of type ‘char’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:12:35 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:12:38 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:57:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:57:28: note: expected ‘const char *’ but argument is of type ‘char’
-../reversedString.c:47:16: warning: unused variable ‘right’ [-Wunused-variable]
-  int left = 0, right = strlen(s) - 1;
-                ^
-../reversedString.c:47:6: warning: unused variable ‘left’ [-Wunused-variable]
-  int left = 0, right = strlen(s) - 1;
-      ^
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:12:54 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:31:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:31:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:31:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:58:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:58:28: note: expected ‘const char *’ but argument is of type ‘char’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:12:56 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:17:22 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:53:8: warning: unused variable ‘temp’ [-Wunused-variable]
-   char temp = s[left];
-        ^
-../reversedString.c:60:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:60:28: note: expected ‘const char *’ but argument is of type ‘char’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:17:24 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:17:25 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:17:26 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:17:27 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:17:28 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:17:44 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:53:8: warning: unused variable ‘temp’ [-Wunused-variable]
-   char temp = s[left];
-        ^
-../reversedString.c:60:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:60:28: note: expected ‘const char *’ but argument is of type ‘char’
-../reversedString.c:66:9: warning: return makes pointer from integer without a cast [-Wint-conversion]
-  return 5;
-         ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:17:46 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:17:47 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:18:08 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:54:8: warning: unused variable ‘temp’ [-Wunused-variable]
-   char temp = s[left];
-        ^
-../reversedString.c:61:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:61:28: note: expected ‘const char *’ but argument is of type ‘char’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:18:10 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:18:41 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:30:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  char sLength = strlen(s);
-                 ^
-../reversedString.c:30:17: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:30:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-../reversedString.c:62:28: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast [-Wint-conversion]
-  for(int i = 0; i < strlen(sLength); i++)
-                            ^
-../reversedString.c:62:28: note: expected ‘const char *’ but argument is of type ‘char’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:18:43 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:19:51 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:47:24: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  int left = 0, right = strlen(s) - 1;
-                        ^
-../reversedString.c:47:24: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:47:24: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:19:52 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:19:54 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:19:55 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:21:19 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:31:14: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  int right = strlen(s) - 1;
-              ^
-../reversedString.c:31:14: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:31:14: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:21:22 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:31:14: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  int right = strlen(s) - 1;
-              ^
-../reversedString.c:31:14: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:31:14: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:21:26 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:21:42 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:22:07 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:22:43 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:22:45 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:22:47 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:24:11 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:21:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:31:14: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  int right = strlen(s) - 1;
-              ^
-../reversedString.c:31:14: warning: incompatible implicit declaration of built-in function ‘strlen’
-../reversedString.c:31:14: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:24:13 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:24:28 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:24:39 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:25:53 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:25:58 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:28:21 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:28:25 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:28:28 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:28:59 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:29:01 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:29:14 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:29:15 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:30:17 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:30:20 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:30:26 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:30:27 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:31:01 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:31:02 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:31:08 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:31:09 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:31:10 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:31:12 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:31:27 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-Finished building: ../reversedString.c
-  char* reversedString;
-        ^
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:31:39 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:40:12: warning: ‘temp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   s[right] = temp;
-            ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:31:40 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:31:44 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:40:12: warning: ‘temp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   s[right] = temp;
-            ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:31:44 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:31:48 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:33:7: warning: unused variable ‘temp’ [-Wunused-variable]
-  char temp;
-       ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:31:49 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:32:33 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:32:35 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:33:7: warning: unused variable ‘temp’ [-Wunused-variable]
-  char temp;
-       ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:33:43 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:33:7: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
-  char temp;
-       ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:33:44 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:34:33 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:34:34 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:36:41 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:24:33: warning: character constant too long for its type
-  reversedString = reverseString('hello');
-                                 ^
-../reversedString.c:24:33: warning: passing argument 1 of ‘reverseString’ makes pointer from integer without a cast [-Wint-conversion]
-../reversedString.c:18:7: note: expected ‘char *’ but argument is of type ‘int’
- char* reverseString(char* s);
-       ^
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:36:42 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:36:47 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:36:48 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:37:09 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:37:11 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:25 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-Building file: ../linkedList.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"linkedList.d" -MT"linkedList.o" -o "linkedList.o" "../linkedList.c"
-../linkedList.c: In function ‘createNumber’:
-../linkedList.c:32:25: warning: unused variable ‘current’ [-Wunused-variable]
-  struct linkedListNode *current = numberHead;
-                         ^
-../linkedList.c: In function ‘addLinkedListNums’:
-../linkedList.c:58:16: warning: variable ‘carry’ set but not used [-Wunused-but-set-variable]
-  unsigned char carry = 0, intermediateSum;
-                ^
-Finished building: ../linkedList.c
- 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 ../main.c: In function ‘main’:
-../main.c:15:25: warning: variable ‘head’ set but not used [-Wunused-but-set-variable]
-  struct linkedListNode *head = NULL, *myNum1 = NULL, *myNum2 = NULL, *mySum = NULL;
-                         ^
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
 Finished building: ../main.c
  
-Building target: addTwoNumbersLinkedList
+Building target: maximumAverageSubarray
 Invoking: GCC C Linker
-gcc  -o "addTwoNumbersLinkedList"  ./linkedList.o ./main.o   
-Finished building target: addTwoNumbersLinkedList
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
  
-21:40:25 **** Build of configuration Debug for project hammingDistance ****
+22:05:42 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
 make all 
-Building file: ../hammingDistance.c
+Building file: ../main.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hammingDistance.d" -MT"hammingDistance.o" -o "hammingDistance.o" "../hammingDistance.c"
-Finished building: ../hammingDistance.c
- 
-Building target: hammingDistance
-Invoking: GCC C Linker
-gcc  -o "hammingDistance"  ./hammingDistance.o   
-Finished building target: hammingDistance
- 
-21:40:25 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:35:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
-  char *reversedString = (int *)malloc(strlen(s));
-                         ^
-../reversedString.c:33:7: warning: unused variable ‘temp’ [-Wunused-variable]
-  char temp;
-       ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:40:27 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:40 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:40 **** Incremental Build of configuration Debug for project hammingDistance ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:40 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:49 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:49 **** Incremental Build of configuration Debug for project hammingDistance ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:49 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:40:52 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:35:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
-  char *reversedString = (int *)malloc(strlen(s));
-                         ^
-../reversedString.c:33:7: warning: unused variable ‘temp’ [-Wunused-variable]
-  char temp;
-       ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:41:03 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-make: Nothing to be done for 'all'.
-21:41:04 **** Incremental Build of configuration Debug for project hammingDistance ****
-make all 
-make: Nothing to be done for 'all'.
-21:41:04 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:35:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
-  char *reversedString = (int *)malloc(strlen(s));
-                         ^
-../reversedString.c:33:7: warning: unused variable ‘temp’ [-Wunused-variable]
-  char temp;
-       ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:41:05 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:42:17 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-make: Nothing to be done for 'all'.
-21:42:17 **** Incremental Build of configuration Debug for project hammingDistance ****
-make all 
-make: Nothing to be done for 'all'.
-21:42:17 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:22:8: warning: variable ‘reversedString’ set but not used [-Wunused-but-set-variable]
-  char* reversedString;
-        ^
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:42:18 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:42:21 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:42:22 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:42:23 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:42:25 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:43:05 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-make: Nothing to be done for 'all'.
-21:43:05 **** Incremental Build of configuration Debug for project hammingDistance ****
-make all 
-make: Nothing to be done for 'all'.
-21:43:05 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-Finished building: ../reversedString.c
- 
-Building target: reversedString
-Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
- 
-21:43:06 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-make: Nothing to be done for 'all'.
-21:48:36 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-make: Nothing to be done for 'all'.
-21:48:36 **** Incremental Build of configuration Debug for project hammingDistance ****
-make all 
-make: Nothing to be done for 'all'.
-21:48:36 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘main’:
-../reversedString.c:23:6: error: expected identifier or ‘(’ before ‘[’ token
-  char[] s = "hello";
-      ^
-../reversedString.c:25:33: error: ‘s’ undeclared (first use in this function)
-  reversedString = reverseString(s);
-                                 ^
-../reversedString.c:25:33: note: each undeclared identifier is reported only once for each function it appears in
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:44:16: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   char temp = s[left];
-                ^
-../reversedString.c:45:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   s[left] = s[right];
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:27:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d", nums[i]);
     ^
-../reversedString.c:45:14: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   s[left] = s[right];
-              ^
-../reversedString.c:46:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   s[right] = temp;
-    ^
-make: *** [reversedString.o] Error 1
-subdir.mk:18: recipe for target 'reversedString.o' failed
-21:49:05 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
-make all 
-make: Nothing to be done for 'all'.
-21:49:05 **** Incremental Build of configuration Debug for project hammingDistance ****
-make all 
-make: Nothing to be done for 'all'.
-21:49:05 **** Incremental Build of configuration Debug for project reversedString ****
-make all 
-Building file: ../reversedString.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
-../reversedString.c: In function ‘reverseString’:
-../reversedString.c:44:16: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   char temp = s[left];
-                ^
-../reversedString.c:45:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   s[left] = s[right];
-    ^
-../reversedString.c:45:14: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   s[left] = s[right];
-              ^
-../reversedString.c:46:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
-   s[right] = temp;
-    ^
-Finished building: ../reversedString.c
+../main.c:27:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:30:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("\n");
+   ^
+../main.c:30:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.c
  
-Building target: reversedString
+Building target: maximumAverageSubarray
 Invoking: GCC C Linker
-gcc  -o "reversedString"  ./reversedString.o   
-Finished building target: reversedString
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
  
-21:49:07 **** Incremental Build of configuration Debug for project reversedString ****
+22:05:43 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:05:49 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:27:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:27:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:30:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("\n");
+   ^
+../main.c:30:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:05:50 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:06:16 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:27:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:27:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:30:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("\n");
+   ^
+../main.c:30:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:06:17 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:08:03 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:28:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:28:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:32:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("Average %f", average);
+   ^
+../main.c:32:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:22:18: warning: unused variable ‘maxAverage’ [-Wunused-variable]
+  double average, maxAverage;
+                  ^
+../main.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:08:04 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:08:45 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:28:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:28:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:32:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("Average %f", average);
+   ^
+../main.c:32:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:38:9: warning: ‘maxAverage’ is used uninitialized in this function [-Wuninitialized]
+  return maxAverage;
+         ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:08:46 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:09:35 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:28:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:28:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:32:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("Average %f", average);
+   ^
+../main.c:32:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:39:9: warning: ‘maxAverage’ is used uninitialized in this function [-Wuninitialized]
+  return maxAverage;
+         ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:09:38 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:21 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:28:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:28:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:36:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("Average %f", average);
+   ^
+../main.c:36:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:12:22 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:15:05 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:15:06 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:18:48 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:18:49 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:19 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:26:42 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:26:44 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:08 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building target: maximumAverageSubarray
+ 
+22:27:09 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:34 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:28:36 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:50 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:28:51 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:29:42 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:29:43 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:30:04 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 4));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:30:05 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:33:36 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:33:37 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:39 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:35:42 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:21:11: error: expected identifier or ‘(’ before ‘[’ token
+  long long[8860,-853,6534,4477,-4589,8646,-6155,-5577,-1656,-5779,-2619,-8604,-1358,-8009,4983,7063,3104,-1560,4080,2763,5616,-2375,2848,1394,-7173,-5225,-8244,-809,8025,-4072,-4391,-9579,1407,6700,2421,-6685,5481,-1732,-8892,-6645,3077,3287,-4149,8701,-4393,-9070,-1777,2237,-3253,-506,-4931,-7366,-8132,5406,-6300,-275,-1908,67,3569,1433,-7262,-437,8303,4498,-379,3054,-6285,4203,6908,4433,3077,2288,9733,-8067,3007,9725,9669,1362,-2561,-4225,5442,-9006,-429,160,-9234,-4444,3586,-5711,-9506,-79,-4418,-4348,-5891]
+           ^
+../main.c:35:4: error: ‘sum’ undeclared (first use in this function)
+    sum += nums[i];
+    ^
+../main.c:35:4: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+22:35:46 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:21:11: error: expected identifier or ‘(’ before ‘[’ token
+  long long[8860,-853,6534,4477,-4589,8646,-6155,-5577,-1656,-5779,-2619,-8604,-1358,-8009,4983,7063,3104,-1560,4080,2763,5616,-2375,2848,1394,-7173,-5225,-8244,-809,8025,-4072,-4391,-9579,1407,6700,2421,-6685,5481,-1732,-8892,-6645,3077,3287,-4149,8701,-4393,-9070,-1777,2237,-3253,-506,-4931,-7366,-8132,5406,-6300,-275,-1908,67,3569,1433,-7262,-437,8303,4498,-379,3054,-6285,4203,6908,4433,3077,2288,9733,-8067,3007,9725,9669,1362,-2561,-4225,5442,-9006,-429,160,-9234,-4444,3586,-5711,-9506,-79,-4418,-4348,-5891]
+           ^
+../main.c:35:4: error: ‘sum’ undeclared (first use in this function)
+    sum += nums[i];
+    ^
+../main.c:35:4: note: each undeclared identifier is reported only once for each function it appears in
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+22:36:29 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:36:30 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:39:47 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:36:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("sum: %f\n", sum);
+   ^
+../main.c:36:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:36:10: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long double’ [-Wformat=]
+   printf("sum: %f\n", sum);
+          ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:39:48 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:06 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:09 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:33:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:33:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Finished building: ../main.c
+../main.c:36:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("sum: %f\n", sum);
+   ^
+../main.c:36:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:36:10: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long double’ [-Wformat=]
+ 
+   printf("sum: %f\n", sum);
+          ^
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:40:23 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:33:4: warning: incompatible implicit declaration of built-in function ‘printf’
+    printf("%d ", nums[i]);
+    ^
+../main.c:33:4: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:36:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("sum: %f\n", sum);
+   ^
+../main.c:36:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:36:10: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long double’ [-Wformat=]
+   printf("sum: %f\n", sum);
+          ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:40:24 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:41 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("findMaxAverage return value: %f\n", findMaxAverage(nums, 6, 6));
+  ^
+../main.c:14:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../main.c:14:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c: In function ‘findMaxAverage’:
+../main.c:36:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("sum: %f\n", sum);
+   ^
+../main.c:36:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../main.c:36:10: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long double’ [-Wformat=]
+   printf("sum: %f\n", sum);
+          ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:40:43 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:22 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘findMaxAverage’:
+../main.c:39:10: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long double’ [-Wformat=]
+   printf("sum: %f\n", sum);
+          ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:42:23 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:59 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘findMaxAverage’:
+../main.c:39:10: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long double’ [-Wformat=]
+   printf("sum: %f\n", sum);
+          ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:43:01 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:44:19 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:44:21 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:46:03 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:46:05 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:54 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘findMaxAverage’:
+../main.c:44:10: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long double’ [-Wformat=]
+   printf("Average %f", average);
+          ^
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:49:56 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:52:03 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:52:05 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:53:50 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:53:52 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:54:57 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:54:58 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:55:24 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘findMaxAverage’:
+../main.c:25:38: error: incompatible types when initializing type ‘double’ using type ‘void *’
+  double average, currentMaxAverage = NULL;
+                                      ^
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+22:55:36 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+22:55:38 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+22:57:28 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+../main.c: In function ‘findMaxAverage’:
+../main.c:26:20: warning: ‘average’ is used uninitialized in this function [-Wuninitialized]
+  currentMaxAverage = average;
+                    ^
+Finished building target: maximumAverageSubarray
+ 
+22:57:29 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+make: Nothing to be done for 'all'.
+23:00:31 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: maximumAverageSubarray
+Invoking: GCC C Linker
+gcc  -o "maximumAverageSubarray"  ./main.o   
+Finished building target: maximumAverageSubarray
+ 
+23:00:32 **** Incremental Build of configuration Debug for project maximumAverageSubarray ****
 make all 
 make: Nothing to be done for 'all'.
