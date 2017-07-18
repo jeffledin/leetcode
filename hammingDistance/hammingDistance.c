@@ -7,33 +7,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char* reverseString(char* s);
+int hammingDistance(int x, int y);
 
 int main()
 {
-	char* reversedString;
-
-	reversedString = reverseString("race a car");
-
+	int result;
+	result = hammingDistance(0b1100, 0b0000);
+	printf("Hamming Distance: %d\n", result);
 	return 0;
 }
 
-char* reverseString(char* s)
+int hammingDistance(int x, int y)
 {
-	char sLength = strlen(s);
-	char *reversedString = (char *)malloc(sLength);
+	int XORmask = (x ^ y);
+	int hammingDistance = 0;
 
-	for(int i = 0; i < sLength; i++)
+	printf("XORmask: %#010x\n", XORmask); // look for where the two variables differ
+
+	for(int i = 0; i < 32; i++)
 	{
-		reversedString[i] = s[sLength - i - 1];
+		if(XORmask & (1 << i)) // count the ones in the mask
+		{
+			printf("Difference Found At Bit Position %d\n", i);
+			++hammingDistance;
+		}
 	}
 
-	printf("Reversed String: ");
-	for(int i = 0; i < strlen(reversedString); i++)
-	{
-		printf("%c", reversedString[i]);
-	}
-	printf("\n");
-
-	return reversedString;
+	return hammingDistance;
 }

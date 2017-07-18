@@ -6617,3 +6617,13 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-07-17 00:35:56.982
 !MESSAGE Indexed 'reverseString' (1 sources, 37 headers) in 0.313 sec: 1,050 declarations; 1,893 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2017-07-17 18:58:35.442 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-17 18:58:39.150
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
