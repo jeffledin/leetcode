@@ -1027,3 +1027,71 @@ Finished building target: reversedString
 21:43:06 **** Incremental Build of configuration Debug for project reversedString ****
 make all 
 make: Nothing to be done for 'all'.
+21:48:36 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:36 **** Incremental Build of configuration Debug for project hammingDistance ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:36 **** Incremental Build of configuration Debug for project reversedString ****
+make all 
+Building file: ../reversedString.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
+../reversedString.c: In function ‘main’:
+../reversedString.c:23:6: error: expected identifier or ‘(’ before ‘[’ token
+  char[] s = "hello";
+      ^
+../reversedString.c:25:33: error: ‘s’ undeclared (first use in this function)
+  reversedString = reverseString(s);
+                                 ^
+../reversedString.c:25:33: note: each undeclared identifier is reported only once for each function it appears in
+../reversedString.c: In function ‘reverseString’:
+../reversedString.c:44:16: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   char temp = s[left];
+                ^
+../reversedString.c:45:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   s[left] = s[right];
+    ^
+../reversedString.c:45:14: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   s[left] = s[right];
+              ^
+../reversedString.c:46:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   s[right] = temp;
+    ^
+make: *** [reversedString.o] Error 1
+subdir.mk:18: recipe for target 'reversedString.o' failed
+21:49:05 **** Incremental Build of configuration Debug for project addTwoNumbersLinkedList ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:05 **** Incremental Build of configuration Debug for project hammingDistance ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:05 **** Incremental Build of configuration Debug for project reversedString ****
+make all 
+Building file: ../reversedString.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reversedString.d" -MT"reversedString.o" -o "reversedString.o" "../reversedString.c"
+../reversedString.c: In function ‘reverseString’:
+../reversedString.c:44:16: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   char temp = s[left];
+                ^
+../reversedString.c:45:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   s[left] = s[right];
+    ^
+../reversedString.c:45:14: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   s[left] = s[right];
+              ^
+../reversedString.c:46:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   s[right] = temp;
+    ^
+Finished building: ../reversedString.c
+ 
+Building target: reversedString
+Invoking: GCC C Linker
+gcc  -o "reversedString"  ./reversedString.o   
+Finished building target: reversedString
+ 
+21:49:07 **** Incremental Build of configuration Debug for project reversedString ****
+make all 
+make: Nothing to be done for 'all'.

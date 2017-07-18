@@ -20,8 +20,9 @@ char* reverseString(char* s);
 int main()
 {
 	char* reversedString;
+	char s[] = "hello";
 
-	reversedString = reverseString("hello");
+	reversedString = reverseString(s);
 
 	printf("Reversed String: ");
 	for(int i = 0; i < strlen(reversedString); i++)
@@ -35,13 +36,17 @@ int main()
 
 char* reverseString(char* s)
 {
-	char sLength = strlen(s);
-	char *reversedString = (char *)malloc(sLength);
+	int sLength = strlen(s);
+	int left = 0, right = sLength - 1;
 
-	for(int i = 0; i < sLength; i++)
+	while(left < right)
 	{
-		reversedString[i] = s[sLength - i - 1];
+		char temp = s[left];
+		s[left] = s[right];
+		s[right] = temp;
+		left++;
+		right--;
 	}
 
-	return reversedString;
+	return s;
 }
