@@ -1091,3 +1091,18 @@ Finished building target: findComplement
 23:54:41 **** Incremental Build of configuration Debug for project findComplement ****
 make all 
 make: Nothing to be done for 'all'.
+23:56:47 **** Incremental Build of configuration Debug for project findComplement ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: findComplement
+Invoking: GCC C Linker
+gcc  -o "findComplement"  ./main.o   
+Finished building target: findComplement
+ 
+23:56:48 **** Incremental Build of configuration Debug for project findComplement ****
+make all 
+make: Nothing to be done for 'all'.

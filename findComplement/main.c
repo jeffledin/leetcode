@@ -18,18 +18,18 @@ int main()
 }
 
 int findComplement(int num) {
-    int leadingOnePos, i = 0, numComplement;
+    int leftmostOnePos, i = 0, numComplement;
 
     while(!(num & (0x80000000 >> i))) // scan for leading 1
     {
         i++;
     }
 
-    leadingOnePos = i;
+    leftmostOnePos = 32 - i;
 
     //printf("Leading One Found %d Positions to the Right\n", leadingOnePos);
 
-    for(int i = 0; i < (32 - leadingOnePos); i++)
+    for(int i = 0; i < leftmostOnePos; i++)
     {
         num ^= (1 << i);
     }
